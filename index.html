@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>ConstruBeto - Materiais de construção</title>
+    <meta name=”description” content="Loja de materiais de construção! Sempre pronto para atender os clientes da melhor maneira possível! Seja por preço, comodidade e bom atendimento.">
+    <meta property="og:title" content="ConstruBeto - Materiais de construção" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Loja de materiais de construção! Sempre pronto para atender os clientes da melhor maneira possível! Seja por preço, comodidade e bom atendimento." />
+    <meta property="og:url" content="https://www.construbeto.com.br" />
+    <meta property="og:image" content="https://construbeto.com.br/logo512.webp" />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@construbeto" />
+    <meta name="twitter:title" content="ConstruBeto - Materiais de construção" />
+    <meta name="twitter:description" content="Loja de materiais de construção! Sempre pronto para atender os clientes da melhor maneira possível! Seja por preço, comodidade e bom atendimento." />
+    <meta name="twitter:image" content="https://construbeto.com.br/logo512.webp" />
+    <meta name="twitter:image:alt" content="Logo da ConstruBeto" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+  
+    <link href="assets/css/reset.css" rel="stylesheet">
+    <link href="assets/css/cabecalho.css" rel="stylesheet">
+    <link href="assets/css/produtos.css" rel="stylesheet">
+    <link href="assets/css/base.css" rel="stylesheet">
+    <link href="assets/css/ecommerce.css" rel="stylesheet">
+    <link href="assets/css/rodape.css" rel="stylesheet">  
+    <link href="assets/css/reviews.css" rel="stylesheet">
+    <link href="assets/css/produtos-slide.css" rel="stylesheet">
+    <link href="assets/css/produtos-dropdown.css" rel="stylesheet">
+
+    <script src="assets/scripts/popup.js" defer></script>
+    <script src="assets/scripts/carrosel.js" defer></script>
+    <script src="assets/scripts/produtos.js" defer></script>
+    <script src="assets/scripts/dropdown.js" defer></script>
+    
+
+    <link href = "./assets/img/favicon.svg" rel = "icon">
+    
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho__empresa">
+            <img src="./assets/img/logo.webp" alt="Logo Construbeto" class="cabecalho__logo">
+            <p class="cabecalho__slogan">Do fundamento ao acabamento!</p>
+        </div>
+        <ul class="cabecalho__navbar">
+            <li class="cabecalho__navbar--links">
+                <a href="https://wa.me/5531984628490" target="_blank">
+                    <div class="cabecalho__icone">
+                        <img src="./assets/img/whatsapp.svg" alt="Whatsapp" class="cabecalho__icone--img"></img>
+                        <p class="cabecalho__icone--nome"> Whatsapp</p>
+                    </div>
+                </a>
+            </li>
+            <li class="cabecalho__navbar--links">
+                <a href="#compre-online">
+                    <div class="cabecalho__icone">
+                        <img src="./assets/img/online.svg" alt="Compre Online" class="cabecalho__icone--img"></img>
+                        <p class="cabecalho__icone--nome">Compre Online</p>
+                    </div>
+                </a>
+            </li>
+            <li class="cabecalho__navbar--links">
+                <a href="https://www.google.com/maps/place/Dep%C3%B3sito+Construbeto/@-19.902779,-44.0198074,15z/data=!4m2!3m1!1s0x0:0xd853a218aec3180f?sa=X&ved=2ahUKEwiNi9mS2vfzAhXipJUCHZszCHwQ_BJ6BAhlEAU" target="_blank">
+                    <div class="cabecalho__icone">
+                        <img src="./assets/img/endereco.svg" alt="Endereço" class="cabecalho__icone--img"></img>
+                        <p class="cabecalho__icone--nome">Endereço</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        
+        <section class="dropdown__produtos">
+            <div class="dropdown__principal" id="toggleon">
+                <div class="dropdown__titulo" id="botao__dropdown--main"><a class="dropdown__titulo--nome" href="">Produtos</a>
+                    <img class="dropdown__seta" alt="seta dropdown" id ="toggleoff" src="assets/img/arrow.svg">
+                    <ul class="dropdown__botoes">
+                        <li>
+                            <a href="#" class="produtos__botao--dropdown" id="botao1">
+                                <p class="produtos__dropdown--nome" >Pisos e Revestimentos</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="produtos__botao--dropdown" id="botao2">
+                                <p class="produtos__dropdown--nome" >Ferramentas</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="produtos__botao--dropdown" id="botao3">
+                                <p class="produtos__dropdown--nome" >Armários e Utensílios para Banheiro</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="produtos__botao--dropdown" id="botao4">
+                                <p class="produtos__dropdown--nome" >Armários p/ Cozinha</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="produtos__botao--dropdown" id="botao5">
+                                <p class="produtos__dropdown--nome" >Torneiras e Metais Sanitários</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="produtos__botao--dropdown" id="botao6">
+                                <p class="produtos__dropdown--nome" >Portas e Janelas</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="produtos__botao--dropdown" id="botao7">
+                                <p class="produtos__dropdown--nome" >Utilidades domésticas</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+
+
+
+        </section>
+
+        <section class="produtos">
+            <h2 class="produtos__titulo">Produtos</h2>
+            <div class="produtos__botoes">
+                <a href="#" class="produtos__botao" id="botao1-1">
+                    <p   class="produtos__botao--nome" >Pisos e Revestimentos</p>
+                </a>
+                <a href="#" class="produtos__botao" id="botao2-2">
+                    <p class="produtos__botao--nome">Ferramentas</p>
+                </a>
+                <a href="#" class="produtos__botao" id="botao3-3">
+                    <p class="produtos__botao--nome">Armários e Utensílios para Banheiro</p>
+                </a>
+                <a href="#" class="produtos__botao" id="botao4-4">
+                    <p class="produtos__botao--nome">Armários p/ Cozinha</p>
+                </a>
+                <a href="#" class="produtos__botao" id="botao5-5">
+                        <p class="produtos__botao--nome">Torneiras e Metais Sanitários</p>   
+                </a>
+                <a href="#" class="produtos__botao" id="botao6-6">
+                        <p class="produtos__botao--nome">Portas e Janelas</p>
+                </a>
+                <a href="#" class="produtos__botao" id="botao7-7">
+                    <p class="produtos__botao--nome">Utilidades domésticas</p>
+                </a>
+            </div>
+        </section>
+
+        
+
+        <section class="ecommerce">
+            <div class="ecommerce__borda">
+                <h2 class="ecommerce__titulo" id="compre-online">Compre Online</h2>
+                <div class="ecommerce__botoes">
+                    <a href="https://construbetomltda.mercadoshops.com.br/" class="ecommerce__loja" target="_blank">
+                            <img src="./assets/img/mlwhite.webp" alt="loja no mercado Livre" class="ecommerce__loja--imagem">
+                    </a>
+                    <a href="https://m.magazineluiza.com.br/lojista/construbetomateriaisltda/" class="ecommerce__loja" target="_blank">
+                            <img src="./assets/img/magaluwhite.webp" alt="Loja na magazine luiza" class="ecommerce__loja--imagem">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="review">
+                <div class="reviews">
+                    <img src="./assets/img/nota.webp" alt="Nota dos clientes" class="reviews__nota">
+                <div data-slide="slide" class="slide">
+                    <div class="slide-items">
+                        <img class="imgreview" src="./assets/img/review1.webp" alt="Avaliações de clientes">
+                        <img class="imgreview" src="./assets/img/review2.webp" alt="Avaliações de clientes">
+                        <img class="imgreview" src="./assets/img/review3.webp" alt="Avaliações de clientes">
+                        </div>
+                        <nav class="slide-nav">
+                          <div class="slide-thumbs"></div>
+                          <button class="slide-prev">Anterior</button>
+                          <button class="slide-next">Próximo</button>
+                        </nav>
+                      </div>
+        </section>
+
+    </main>
+    <footer>
+        <section class="rodape">
+            <div class="informacoes">
+                <h3>Funcionamento</h3>
+                <p>Segunda a sexta: 8:00 - 18:00</p>
+                <p>Sábado: 8:00 - 13:00</p>
+            </div>
+            <div class="informacoes">
+                <h3>Endereço</h3>
+                <address>
+                <p>Av. Amintas Jacques de Morais, 1400</br>
+                    Bairro Coqueiros, Belo Horizonte - MG</br>
+                    Cep: 30880-330</p>
+                </address>    
+            </div>
+            <div class="informacoes">
+                <h3>Telefone</h3>
+                <a href="tel:+553198462-8490"><p class="telefone">(31) 98462-8490</p></a>
+            </br></br></br>
+                <p>Site criado por: <a class="webest" href="https://webeston.com/" target="_blank">WeBest On</a></p>
+            </div>
+        </section>
+    </footer>
+
+
+    <!-- pop up -->
+    <div class ="modal" id="modal1">
+        <div class="modal-content">
+            <button class="fechar">x</button>
+            <h3>Pisos e Revestimentos</h3>
+            <div data-slide="slide1" class="slide">
+                <div class="slide-items">
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Pisos/Cedasa_cod_1783_ambiente.webp" alt="Img 1">
+                        <figcaption>Piso Cedasa Cod:1783 Ambiente</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Pisos/Cedasa_cod_1783.webp" alt="Img 2">
+                        <figcaption>Piso Cedasa Cod:1783</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Pisos/Majopar_cod_3732_ambiente.webp" alt="Img 3">
+                        <figcaption>Piso Majopar Cod:3732 Ambiente</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Pisos/Majopar_cod_3732.webp" alt="Img 4">
+                        <figcaption>Piso Majopar Cod:3732</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Pisos/Majopar_cod_3756_ambiente.webp" alt="Img 5">
+                        <figcaption>Piso Majopar Cod:3756 Ambiente</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Pisos/Majopar_cod_3769.webp" alt="Img 6">
+                        <figcaption>Piso Majopar Cod:3769</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Pisos/Majopar_cod_3825.webp" alt="Img 7">
+                        <figcaption>Piso Majopar Cod:3825</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Pisos/Majopar_cod_3827_ambiente.webp" alt="Img 8">
+                        <figcaption>Piso Majopar Cod:3827 Ambiente</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Pisos/Majopar_cod_3827.webp" alt="Img 9">
+                        <figcaption>Piso Majopar Cod:3827</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Pisos/Nardini_cod_45030.webp" alt="Img 10">
+                        <figcaption>Piso Nardini Cod:45030</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Pisos/Nardini_cod_45132.webp" alt="Img 11">
+                        <figcaption>Piso Nardini Cod:45132</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Pisos/Nardini_cod_45322.webp" alt="Img 12">
+                        <figcaption>Piso Nardini Cod:45322</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Pisos/Nardini_cod_45608.webp" alt="Img 13">
+                        <figcaption>Piso Nardini Cod:45608</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Pisos/ha_Cer195162micas_cod_55800_ambiente.webp" alt="Img 14">
+                        <figcaption>Piso Rocha Cerâmicas Cod:55800 Ambiente</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Pisos/Rocha_Cer195162micas_cod_55800.webp" alt="Img 15">
+                        <figcaption>Piso Rocha Cerâmicas Cod:55800</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Pisos/Vista_Bella_cod_5750_ambiente.webp" alt="Img 16">
+                        <figcaption>Piso Vista Bella Cod:5750 Ambiente</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Pisos/Vista_Bella_cod_5750.webp" alt="Img 17">
+                        <figcaption>Piso Vista Bella Cod:5750</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Pisos/Viva_cod_58003_Ambiente.webp" alt="Img 18">
+                        <figcaption>Piso Viva Cod:58003 Ambiente</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Pisos/Viva_Cod_58003.webp" alt="Img 19">
+                        <figcaption>Piso Viva Cod:58003</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Revestimentos para Paredes/ramaco_Retificado_cod_57500_ambiente.webp" alt="Img 20">
+                        <figcaption>Revestimento Embramaco Retificado Cod:57500 ambiente</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Revestimentos para Paredes/Embramaco_Retificado_cod_57500.webp" alt="Img 21">
+                        <figcaption>Revestimento Embramaco Retificado Cod:57500</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Revestimentos para Paredes/Karina_cod_37082.webp" alt="Img 22">
+                        <figcaption>Revestimento Karina Cod:37082</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Revestimentos para Paredes/Karina_cod_37186.webp" alt="Img 23">
+                        <figcaption>Revestimento Karina Cod:37186</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Revestimentos para Paredes/karina_cod_37200.webp" alt="Img 24">
+                        <figcaption>Revestimento Karina Cod:37200</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Revestimentos para Paredes/Majopar_cod_4072_ambiente.webp" alt="Img 25">
+                        <figcaption>Revestimento Majopar Cod:4072 ambiente</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Revestimentos para Paredes/Majopar_cod_4072.webp" alt="Img 26">
+                        <figcaption>Revestimento Majopar Cod:4072</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Revestimentos para Paredes/Rocha_Bisotado_cod_38661_ambiente.webp" alt="Img 27">
+                        <figcaption>Revestimento Rocha Bisotado Cod:38661 ambiente</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Revestimentos para Paredes/Rocha_Bisotado_cod_38661.webp" alt="Img 28">
+                        <figcaption>Revestimento Rocha Bisotado Cod:38661</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Revestimentos para Paredes/Viva_Cer195162mica_cod_6029_ambiente.webp" alt="Img 29">
+                        <figcaption>Revestimento Viva Cerâmica Cod:6029 ambiente</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Revestimentos para Paredes/Viva_Cer195162mica_cod_6029.webp" alt="Img 30">
+                        <figcaption>Revestimento Viva Cerâmica Cod:6029</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Revestimentos para Paredes/Viva_Cer195162mica_cod_6083_ambiente.webp" alt="Img 31">
+                        <figcaption>Revestimento Viva Cerâmica Cod:6083 ambiente</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Revestimentos para Paredes/Viva_Cer195162mica_cod_6083.webp" alt="Img 32">
+                        <figcaption>Revestimento Viva Cerâmica Cod:6083</figcaption>
+                    </figure>
+                </div>
+                    <nav class="slide-navs">
+                      <div class="slide-thumb"></div>
+                      <button class="slide-prev"><img class="imgprevi" src="./assets/img/setaesq.svg" alt="Próxima imagem"></button>
+                      <button class="slide-next"><img class="imgnext" src="./assets/img/seta.svg" alt="Imagem anterior"></button>
+                    </nav>
+                  </div>
+        </div>
+    </div>
+
+    <div class ="modal" id="modal2">
+        <div class="modal-content">
+            <button class="fechar">x</button>
+            <h3>Ferramentas</h3>
+            <div data-slide="slide2" class="slide">
+                <div class="slide-items">
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Ferramentas/20211102_104513.webp" alt="Img 1">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Ferramentas/Alicate Corte Diagonal.webp" alt="Img 2">
+                        <figcaption>Alicate Corte Diagonal</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Ferramentas/Alicate de Bico.webp" alt="Img 3">
+                        <figcaption>Alicate de Bico</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Ferramentas/Alicate Nivelador de Piso Cortag.webp" alt="Img 4">
+                        <figcaption>Alicate Nivelador de Piso Cortag</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Ferramentas/Alicate Universal.webp" alt="Img 5">
+                        <figcaption>Alicate Universal</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Ferramentas/Carrinhos de Mão.webp" alt="Img 6">
+                        <figcaption>Carrinhos de Mão</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Ferramentas/Cavadeiras Articuladas.webp" alt="Img 7">
+                        <figcaption>Cavadeiras Articuladas</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Ferramentas/Cavadeiras Retas.webp" alt="Img 8">
+                        <figcaption>Cavadeiras Retas</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Ferramentas/Cunhas e Espaçadores Cortag.webp" alt="Img 9">
+                        <figcaption>Cunhas e Espaçadores Cortag</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Ferramentas/Disco Cortag Porcelanato.webp" alt="Img 10">
+                        <figcaption>Disco Cortag Porcelanato</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Ferramentas/Disco Corte Diamante Azul.webp" alt="Img 11">
+                        <figcaption>Disco Corte Diamante Azul</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Ferramentas/Disco Madeira.webp" alt="Img 12">
+                        <figcaption>Disco Madeira</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Ferramentas/Enxadas.webp" alt="Img 13">
+                        <figcaption>Enxadas</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Ferramentas/Furadeira e Parafusadeira Black and Decker.webp" alt="Img 14">
+                        <figcaption>Furadeira e Parafusadeira Black and Decker</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Ferramentas/Marretas.webp" alt="Img 15">
+                        <figcaption>Marretas</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Ferramentas/Marterlos e Machadinha.webp" alt="Img 16">
+                        <figcaption>Martelos e Machadinha</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Ferramentas/Picaretas.webp" alt="Img 17">
+                        <figcaption>Picaretas</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Ferramentas/Pás Quadradas.webp" alt="Img 18">
+                        <figcaption>Pás Quadradas</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Ferramentas/Pás.webp" alt="Img 19">
+                        <figcaption>Pás</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Ferramentas/Pé de Cabra, Ponteiros e Talhadeis.webp" alt="Img 20">
+                        <figcaption>Pé de Cabra, Ponteiros e Talhadeis</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Ferramentas/Roldanas.webp" alt="Img 21">
+                        <figcaption>Roldanas</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Ferramentas/Serra Copop.webp" alt="Img 22">
+                        <figcaption>Serra Copop</figcaption>
+                    </figure>
+                </div>
+                <nav class="slide-navs">
+                  <div class="slide-thumb"></div>
+                  <button class="slide-prev"><img class="imgprevi" src="./assets/img/setaesq.svg" alt="Próxima imagem"></button>
+                    <button class="slide-next"><img class="imgnext" src="./assets/img/seta.svg" alt="Imagem anterior"></button>
+                </nav>
+              </div>
+    </div>
+</div>
+
+    <div class ="modal" id="modal3">
+        <div class="modal-content">
+            <button class="fechar">x</button>
+            <h3>Armários e Utensílios P/ Banheiro</h3>
+            <div data-slide="slide3" class="slide">
+                <div class="slide-items">
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/banheiro/Acessórios para Banheiro de Vidro.webp" alt="Img 1">
+                        <figcaption>Acessórios para Banheiro de Vidro</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/banheiro/Bacia Acoplada Oval Araxá.webp" alt="Img 2">
+                        <figcaption>Bacia Acoplada Oval Araxá</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/banheiro/Bacia Acoplada Quadrada Alámo.webp" alt="Img 3">
+                        <figcaption>Bacia Acoplada Quadrada Alámo</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/banheiro/Cubas de Louça para Embutir.webp" alt="Img 4">
+                        <figcaption>Cubas de Louça para Embutir</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/banheiro/Cubas de Vidro.webp" alt="Img 5">
+                        <figcaption>Cubas de Vidro</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/banheiro/Kit Bérgamo para Banheiro.webp" alt="Img 6">
+                        <figcaption>Kit Bérgamo para Banheiro</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/banheiro/Kit Firenze para Banheiro.webp" alt="Img 7">
+                        <figcaption>Kit Firenze para Banheiro</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/banheiro/Kit Lavatório e Coluna Araxa.webp" alt="Img 8">
+                        <figcaption>Kit Lavatório e Coluna Araxa</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/banheiro/Kit Lavatório e Coluna Dona Beja.webp" alt="Img 9">
+                        <figcaption>Kit Lavatório e Coluna Dona Beja</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/banheiro/Kit Modena para Banheiro.webp" alt="Img 10">
+                        <figcaption>Kit Modena para Banheiro</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/banheiro/Kit Monaco para Banheiro.webp" alt="Img 11">
+                        <figcaption>Kit Monaco para Banheiro</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/banheiro/Kit Siena para Banheiro.webp" alt="Img 12">
+                        <figcaption>Kit Siena para Banheiro</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/banheiro/Kit VB Advance.webp" alt="Img 13">
+                        <figcaption>Kit VB Advance</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/banheiro/Kit Viena para Banheiro.webp" alt="Img 14">
+                        <figcaption>Kit Viena para Banheiro</figcaption>
+                    </figure>
+                </div>
+                <nav class="slide-navs">
+                  <div class="slide-thumb"></div>
+                  <button class="slide-prev"><img class="imgprevi" src="./assets/img/setaesq.svg" alt="Próxima imagem"></button>
+                    <button class="slide-next"><img class="imgnext" src="./assets/img/seta.svg" alt="Imagem anterior"></button>
+                </nav>
+              </div>
+    </div>
+</div>
+
+    <div class ="modal" id="modal4">
+        <div class="modal-content">
+            <button class="fechar">x</button>
+            <h3>Armários P/ Cozinha</h3>
+            <div data-slide="slide4" class="slide">
+                <div class="slide-items">
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Cozinhas/Armário Aereo AJR.webp" alt="Img 1">
+                        <figcaption>Armário Aereo AJR</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Cozinhas/Armário Munique Black para pia de 1,20m.webp" alt="Img 2">
+                        <figcaption>Armário Munique Black para pia de 1,20m</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Cozinhas/Armário Munique para pia de 1,20m.webp" alt="Img 3">
+                        <figcaption>Armário Munique para pia de 1,20m</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Cozinhas/Armário Munique para pia de 1,40m.webp" alt="Img 4">
+                        <figcaption>Armário Munique para pia de 1,40m</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Cozinhas/Armário Munique para pia de 1,60m.webp" alt="Img 5">
+                        <figcaption>Armário Munique para pia de 1,60m</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Cozinhas/Armário Munique para pia de 1,80m.webp" alt="Img 6">
+                        <figcaption>Armário Munique para pia de 1,80m</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Cozinhas/Armário Toquio para Pia de 1,00m.webp" alt="Img 7">
+                        <figcaption>Armário Toquio para Pia de 1,00m</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Cozinhas/Armário VitralFer Aço Galvanizado 1,20m.webp" alt="Img 8">
+                        <figcaption>Armário VitralFer Aço Galvanizado 1,20m</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Cozinhas/Armário VitralFer Aço Galvanizado Aereo.webp" alt="Img 9">
+                        <figcaption>Armário VitralFer Aço Galvanizado Aereo</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Cozinhas/Armário VitralFer Aço Galvanizado.webp" alt="Img 10">
+                        <figcaption>Armário VitralFer Aço Galvanizado</figcaption>
+                    </figure>
+                </div>
+                <nav class="slide-navs">
+                  <div class="slide-thumb"></div>
+                  <button class="slide-prev"><img class="imgprevi" src="./assets/img/setaesq.svg" alt="Próxima imagem"></button>
+                    <button class="slide-next"><img class="imgnext" src="./assets/img/seta.svg" alt="Imagem anterior"></button>
+                </nav>
+              </div>
+    </div>
+</div>
+
+    <div class ="modal" id="modal5">
+        <div class="modal-content">
+            <button class="fechar">x</button>
+            <h3>Torneiras e Metais Sanitários</h3>
+            <div data-slide="slide5" class="slide">
+                <div class="slide-items">
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/ACABAM C 65FFF.webp" alt="Img 1">
+                        <figcaption>ACABAM C 65FFF</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/acabamen dssss.webp" alt="Img 2">
+                        <figcaption>acabamen dssss</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/acabament ddsds.webp" alt="Img 3">
+                        <figcaption>acabament ddsds</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/acabament dkkg.webp" alt="Img 4">
+                        <figcaption>acabament dkkg</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/acabament ffddd.webp" alt="Img 5">
+                        <figcaption>acabament ffddd</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/acabamento ckjkjdd.webp" alt="Img 6">
+                        <figcaption>acabamento ckjkjdd</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/acabamento reg c222.webp" alt="Img 7">
+                        <figcaption>acabamento reg c222</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/acabamento registro cccc.webp" alt="Img 8">
+                        <figcaption>acabamento registro cccc</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/acabamento registro csss.webp" alt="Img 9">
+                        <figcaption>acabamento registro csss</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/acabamento registro.webp" alt="Img 10">
+                        <figcaption>acabamento registro</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/acabamento registroddd.webp" alt="Img 11">
+                        <figcaption>acabamento registroddd</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/acabamneto ddsdsa.webp" alt="Img 12">
+                        <figcaption>acabamneto ddsdsa</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/acabamrnto dddd.webp" alt="Img 13">
+                        <figcaption>acabamrnto dddd</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Derivador de Ducha Higiênica (2).webp" alt="Img 14">
+                        <figcaption>Derivador de Ducha Higiênica</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Derivador de Ducha Higiênica.webp" alt="Img 15">
+                        <figcaption>Derivador de Ducha Higiênica</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Misturador Essence Águia.webp" alt="Img 16">
+                        <figcaption>Misturador Essence Águia</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Misturador Águia.webp" alt="Img 17">
+                        <figcaption>Misturador Águia</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Registro Deca.webp" alt="Img 18">
+                        <figcaption>Torneiras/Registro Deca</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Registro Decadfdf.webp" alt="Img 19">
+                        <figcaption>Registro Decadfdf</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Registro Decadfdsfgfd.webp" alt="Img 20">
+                        <figcaption>Registro Decadfdsfgfd</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Registro Decadfsdf.webp" alt="Img 21">
+                        <figcaption>Registro Decadfsdf</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Torneira Com filtro Leão.webp" alt="Img 22">
+                        <figcaption>Torneira Com filtro Leão</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Torneira Com filtro Leãods.webp" alt="Img 23">
+                        <figcaption>Torneira Com filtro Leãods</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Torneira Com filtro Leãosdff.webp" alt="Img 24">
+                        <figcaption>Torneira Com filtro Leãosdff</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Torneira Com filtro Leãosfdsf.webp" alt="Img 25">
+                        <figcaption>Torneira Com filtro Leãosfdsf</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Torneira Essence.webp" alt="Img 26">
+                        <figcaption>Torneira Essence</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Torneira Gourmet Pret.webp" alt="Img 27">
+                        <figcaption>Torneira Gourmet Pret</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Torneira Gourmet Pretdsadsaas.webp" alt="Img 28">
+                        <figcaption>Torneira Gourmet Pretdsadsaas</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Torneira Gourmet Vermelha.webp" alt="Img 29">
+                        <figcaption>Torneira Gourmet Vermelha</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Torneira Gourmet Vermelhasdfsfsdf.webp" alt="Img 30">
+                        <figcaption>Torneira Gourmet Vermelhasdfsfsdf</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Torneira Gourmet Vermelhasdsdas.webp" alt="Img 31">
+                        <figcaption>Torneira Gourmet Vermelhasdsdas</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Torneira Jardim 1130.webp" alt="Img 32">
+                        <figcaption>Torneira Jardim 1130</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Torneira Jardim 1130a.webp" alt="Img 33">
+                        <figcaption>Torneira Jardim 1130a</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Torneira Lavatorio 1196.webp" alt="Img 34">
+                        <figcaption>Torneira Lavatorio 1196</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Torneira Lavatorio 1196dsad.webp" alt="Img 35">
+                        <figcaption>Torneira Lavatorio 1196dsad</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Torneira Leão Gourmetdfdfds.webp" alt="Img 36">
+                        <figcaption>Torneira Leão Gourmetdfdfds</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Torneira Leão Gourmetdsds.webp" alt="Img 37">
+                        <figcaption>Torneira Leão Gourmetdsds</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Torneira Leão Gourmetsdsds.webp" alt="Img 38">
+                        <figcaption>Torneira Leão Gourmetsdsds</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Torneira Pia 5180.webp" alt="Img 39">
+                        <figcaption>Torneira Pia 5180</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Torneira Pia 5180a.webp" alt="Img 40">
+                        <figcaption>Torneira Pia 5180a</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Torneira Pia 5180asd.webp" alt="Img 41">
+                        <figcaption>Torneira Pia 5180asd</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Torneira Pia 5180dsafd.webp" alt="Img 42">
+                        <figcaption>Torneira Pia 5180dsafd</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Torneira Pia 5180dsfdsf.webp" alt="Img 43">
+                        <figcaption>Torneira Pia 5180dsfdsf</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Torneira Pia 5180gfdgd.webp" alt="Img 44">
+                        <figcaption>Torneira Pia 5180gfdgd</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Torneira Pia 5180sffff.webp" alt="Img 45">
+                        <figcaption>Torneira Pia 5180sffff</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Torneira Águia Gourmetdfdsf.webp" alt="Img 46">
+                        <figcaption>Torneira Águia Gourmetdfdsf</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Torneira Águia Gourmetdsad.webp" alt="Img 47">
+                        <figcaption>Torneira Águia Gourmetdsad</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Torneiras/Torneira Águia Gourmetssss.webp" alt="Img 48">
+                        <figcaption>Torneira Águia Gourmetssss</figcaption>
+                    </figure>
+                </div>
+                <nav class="slide-navs">
+                  <div class="slide-thumb"></div>
+                  <button class="slide-prev"><img class="imgprevi" src="./assets/img/setaesq.svg" alt="Próxima imagem"></button>
+                    <button class="slide-next"><img class="imgnext" src="./assets/img/seta.svg" alt="Imagem anterior"></button>
+                </nav>
+              </div>
+    </div>
+</div>
+
+    <div class ="modal" id="modal6">
+        <div class="modal-content">
+            <button class="fechar">x</button>
+            <h3>Portas e Janelas</h3>
+            <div data-slide="slide6" class="slide">
+                <div class="slide-items">
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Portas/Basculante 40x40.webp" alt="Img 1">
+                        <figcaption>Basculante 40x40</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Portas/Basculante 60x60.webp" alt="Img 2">
+                        <figcaption>Basculante 60x60</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Portas/Janela Alumínio 2 Folhas (1F + 1M).webp" alt="Img 3">
+                        <figcaption>Janela Alumínio 2 Folhas (1F + 1M)</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Portas/Janela Alumínio 4 Folhas (2F + 2M).webp" alt="Img 4">
+                        <figcaption>Janela Alumínio 4 Folhas (2F + 2M)</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Portas/janela_de_correr_metal_aco_pintado_1,00x1,50m_crv_89558252_0001_600x600.webp" alt="Img 5">
+                        <figcaption>janela de correr metal aco pintado 1,00x1,50m crv</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Portas/janela_vitr_basculante_vidro_mini_boreal_60x60x3_alumifort_sasazaki_-_73.15.164-3_1.webp" alt="Img 6">
+                        <figcaption>janela vitr basculante vidro mini boreal 60x60x3 alumifort sasazaki</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Portas/laminada-80-direita.webp" alt="Img 7">
+                        <figcaption>laminada-80-direita</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Portas/Porta Alumínio com Postigo.webp" alt="Img 8">
+                        <figcaption>Porta Alumínio com Postigo</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Portas/Porta Aço Branco com Postigo.webp" alt="Img 9">
+                        <figcaption>Porta Aço Branco com Postigo</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Portas/Porta Palheta Alumínio.webp" alt="Img 10">
+                        <figcaption>Porta Palheta Alumínio</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Portas/porta-social-de-abrir-esquerda-com-postigo-215x87cm-branca-sasazaki-1229013-foto-9622dbc1-a004-4c46-a6e6-4a52989a8e18.webp" alt="Img 11">
+                        <figcaption>porta social de abrir esquerda com postigo 215x87cm branca sasazaki</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Portas/Veneziana de Alumínio.webp" alt="Img 12">
+                        <figcaption>Veneziana de Alumínio</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Portas/Veneziana de Aço Branco.webp" alt="Img 13">
+                        <figcaption>Veneziana de Aço Branco</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Portas/Vitro-Basculante-40x40cm-Branco-Vidro-Mini-Boreal-Lider-Esquadria-620475.webp" alt="Img 14">
+                        <figcaption>Vitro Basculante 40x40cm Branco Vidro Mini Boreal Lider Esquadria 620475</figcaption>
+                    </figure>
+                </div>
+                <nav class="slide-navs">
+                  <div class="slide-thumb"></div>
+                  <button class="slide-prev"><img class="imgprevi" src="./assets/img/setaesq.svg" alt="Próxima imagem"></button>
+                    <button class="slide-next"><img class="imgnext" src="./assets/img/seta.svg" alt="Imagem anterior"></button>
+                </nav>
+              </div>
+    </div>
+</div>
+
+    <div class ="modal" id="modal7">
+        <div class="modal-content">
+            <button class="fechar">x</button>
+            <h3>UTILIDADES DOMÉSTICAS</h3>
+            <div data-slide="slide7" class="slide">
+                <div class="slide-items">
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Utilidades/006033-Varal-Teto-Alum-1.webp" alt="Img 1">
+                        <figcaption>Varal Teto Alum</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Utilidades/08060c771a190376f31542baf5c27c60.webp" alt="Img 2">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Utilidades/879f10a34f59cdded0e9bc33f8b4649f.webp" alt="Img 3">
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Utilidades/Bella Ducha.webp" alt="Img 4">
+                        <figcaption>Bella Ducha</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Utilidades/Ducha Advanced.webp" alt="Img 5">
+                        <figcaption>Ducha Advanced</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Utilidades/Ducha Maxi Ducha.webp" alt="Img 6">
+                        <figcaption>Ducha Maxi Ducha</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Utilidades/PU 40 MacFlex(1).webp" alt="Img 7">
+                        <figcaption>Utilidades/PU 40 MacFlex(1)</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Utilidades/PU 40 MacFlex.webp" alt="Img 8">
+                        <figcaption>PU 40 MacFlex</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Utilidades/varal de chão.webp" alt="Img 9">
+                        <figcaption>varal de chão</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Utilidades/Varal Recolhível - 30mts.webp" alt="Img 10">
+                        <figcaption>Varal Recolhível - 30mts</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Utilidades/Varal sanfonado.webp" alt="Img 11">
+                        <figcaption>Varal sanfonado</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Utilidades/varal-de-teto-pequeno-anodizado-fosco-1.webp" alt="Img 12">
+                        <figcaption>varal de teto pequeno anodizado fosco</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Utilidades/varal_de_chao_com_aba_1_50_m_maxeb_2215_3_7918d1036f540d4f923adaae358c9206.webp" alt="Img 13">
+                        <figcaption>varal de chao com aba 1,50m maxeb</figcaption>
+                    </figure>
+                    <figure>
+                        <img class="imgpopup" src="./assets/img/Utilidades/varal_sanfonado_aco_branco_80x55x18cm_maxeb_87359062_0001_600x600.webp" alt="Img 14">
+                        <figcaption>varal sanfonado aco branco 80x55x18cm maxeb</figcaption>
+                    </figure>
+                </div>
+                <nav class="slide-navs">
+                  <div class="slide-thumb"></div>
+                  <button class="slide-prev"><img class="imgprevi" src="./assets/img/setaesq.svg" alt="Próxima imagem"></button>
+                    <button class="slide-next"><img class="imgnext" src="./assets/img/seta.svg" alt="Imagem anterior"></button>
+                </nav>
+              </div>
+    </div>
+</div>
+        </div>
+    </div>
+    <!-- fim do popup -->
+    
+</body>
+</html>
