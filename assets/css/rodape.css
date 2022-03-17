@@ -1,0 +1,70 @@
+.rodape{
+    background: #3B73A3;
+    padding: 20px 0 20px 0;
+    display:flex;
+    justify-content: space-around;
+}
+
+.informacoes h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.informacoes p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 25px;
+}
+
+.telefone{
+    text-decoration: underline;
+    transition: 0.3s ease-in-out;
+}
+
+.webest{
+    text-decoration: underline;
+    transition: 0.3s ease-in-out;
+}
+
+.telefone:hover{
+    color:black;
+}
+
+.webest:hover{
+    color:black;
+}
+
+
+@media screen and (min-width: 0px){
+    .informacoes h3{
+        font-size: 1.1rem;
+    }
+
+    .informacoes p{
+        font-size: 0.65rem;
+    }
+}
+
+@media screen and (min-width: 758px){
+    .informacoes h3{
+        font-size: 1.5rem;
+    }
+
+    .informacoes p{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+    
+}
+
+@media screen and (min-width: 1200px){
+    
+}
+
